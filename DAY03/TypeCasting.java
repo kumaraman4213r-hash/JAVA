@@ -10,6 +10,7 @@ public class TypeCasting {
         int t = (int)f;
 
         System.out.println(t);
+        System.out.println(k);
         
     }
 }
