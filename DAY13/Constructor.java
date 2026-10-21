@@ -7,11 +7,11 @@ class Human{
     public void setAge(int age) {
         this.age = age;
     }
-    public Human() {
+    public Human() {  //Default Constructor
         age = 12;
         name = "Aman";
     }
-    public Human(int age, String name) {
+    public Human(int age, String name) {  //parameterized constructor
         this.age = age;
         this.name = name;
     }
