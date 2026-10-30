@@ -1,4 +1,6 @@
 //every class in java extends the Object class
+// this method execute  the constructorof same class and Super method execute the constructor of super class
+
 class A extends Object{
 
     public A() {
@@ -20,7 +22,7 @@ class B extends A{
     }
 
     public B(int n) {
-        super();
+        this();
         System.out.println("in B int");
     }
     
@@ -30,6 +32,6 @@ class B extends A{
 
 public class SuperKeyword {
     public static void main(String[] args) {
-        B obj = new B();
+        B obj = new B(5);
     }
 }
