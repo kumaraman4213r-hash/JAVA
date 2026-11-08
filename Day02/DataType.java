@@ -16,6 +16,7 @@ public class DataType {
         System.out.println(c);
         System.out.println(f);
         System.out.println(d);
+        System.out.println(num1 + " is prime: " + Algo.isPrime(num1));
     }
     
 }
